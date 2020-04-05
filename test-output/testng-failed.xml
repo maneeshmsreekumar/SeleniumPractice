@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="TestHome(failed)">
+    <classes>
+      <class name="Program.Yahoo_HomePage_Program">
+        <methods>
+          <include name="openingBrowser"/>
+        </methods>
+      </class> <!-- Program.Yahoo_HomePage_Program -->
+    </classes>
+  </test> <!-- TestHome(failed) -->
+  <test parallel="none" name="TestEmail(failed)">
+    <classes>
+      <class name="Program.YahooEmailPage">
+        <methods>
+          <include name="openingBrowser"/>
+        </methods>
+      </class> <!-- Program.YahooEmailPage -->
+    </classes>
+  </test> <!-- TestEmail(failed) -->
+</suite> <!-- Failed suite [Suite] -->
