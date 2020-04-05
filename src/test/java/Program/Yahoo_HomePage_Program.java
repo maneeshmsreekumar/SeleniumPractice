@@ -26,6 +26,7 @@ public class Yahoo_HomePage_Program extends Browser_Initialization{
 	@Test
 	public void YahooHome() throws IOException, InterruptedException   
 	{
+		System.out.println("Welcome To The Program");
 		driver=initialize();
 		log.info("Success");
 		driver.get(prop.getProperty("URL"));
